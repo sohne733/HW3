@@ -1,0 +1,102 @@
+.paper{
+    width: 6in;
+    height: 8in;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: rgb(255, 252, 249);
+    position: absolute;
+    left: 30%;
+}
+.paper::before {
+    content: "";
+    position: absolute;
+    top: 40px; 
+    left: 30px;
+    width: 90%; 
+    height: 1.5px; 
+    background-color: black; 
+}
+.blue{
+    width: 5.36in;
+    height: 1.3in;
+    background-color: #bfe6f5;
+    position: absolute;
+    top: 35%;
+    left: 32.2%;
+}
+.yellow{
+    width: 5.36in;
+    height: 1.3in;
+    background-color: #faf8d2;
+    position: absolute;
+    top: 50%;
+    left: 32.2%;
+}
+.gray{
+    width: 5.36in;
+    height: 2.5in;
+    background-color: #d1d1cf;
+    position: absolute;
+    top: 65%;
+    left: 32.2%;
+}
+.smallblue{
+    width: 1cm;
+    height: 1in;
+    background-color: #bfe6f5;
+    position: absolute;
+    top: 52.9%;
+    left: 46%;
+}
+.smallyellow1{
+    width: 1cm;
+    height: 1in;
+    background-color: #f7f28b;
+    position: absolute;
+    top: 52.9%;
+    right: 46%;
+}
+.smallyellow2{
+    width: 1cm;
+    height: 1in;
+    background-color: #f7f28b;
+    position: absolute;
+    top: 65%;
+    left: 46%;
+}
+.smallblack{
+    width: 1cm;
+    height: 1in;
+    background-color: #000000;
+    position: absolute;
+    top: 65%;
+    right: 46%;
+}
+.titles{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5px;
+    position: absolute;
+    top: 10%;
+    left: 32.2%;
+}
+.title2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5px;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+.title3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5px;
+    position: absolute;
+    top: 10%;
+    left: 48%;
+}
+.title4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    top: 8%;
+    right: 32%;
+}
